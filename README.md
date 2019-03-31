@@ -1,9 +1,7 @@
 # Interactive Analysis of Large-Scale Spatial Vector Data via Visualization-oriented Computing (DEMO)
 To address the scale issue for analysis of large-scale spatial vector data, we present a new spatial analysis computing model, visualization-oriented computing (VOC), for interactive analysis of large-scale spatial vector data. As show in Fig 1, VOC generates analysis results by directly determining the value of each pixel for display. Different from data-oriented computing (DOC) (see Fig 2) in traditional analysis methods, the computing units in VOC are pixels rather than spatial objects. As the number of pixels in the screen range is limited and stable, VOC has the advantage of being insensitive to data volumes.
 
-
-
-<img src="https://github.com/MemoryMmy/VOC/blob/master/figures/fig1.JPG" width = 30% height = 30% />
+![fig1](./figures/fig1.JPG)
 
 *Fig1. Spatial analysis via visualization-oriented computing*
 
@@ -12,6 +10,10 @@ To address the scale issue for analysis of large-scale spatial vector data, we p
 ![fig2](./figures/fig2.JPG)
 
 *Fig2.  Spatial analysis via data-oriented computing*
+
+
+
+
 
 
 
