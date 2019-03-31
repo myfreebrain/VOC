@@ -1,11 +1,11 @@
 # Interactive Analysis of Large-Scale Spatial Vector Data via Visualization-oriented Computing (DEMO)
 To address the scale issue for analysis of large-scale spatial vector data, we present a new spatial analysis computing model, visualization-oriented computing (VOC), for interactive analysis of large-scale spatial vector data. As show in Fig 1, VOC generates analysis results by directly determining the value of each pixel for display. Different from data-oriented computing (DOC) (see Fig 2) in traditional analysis methods, the computing units in VOC are pixels rather than spatial objects. As the number of pixels in the screen range is limited and stable, VOC has the advantage of being insensitive to data volumes.
 
+
+
 ![fig1](./figures/fig1.JPG)
 
 *Fig1. Spatial analysis via visualization-oriented computing*
-
-
 
 ![fig2](./figures/fig2.JPG)
 
@@ -13,14 +13,10 @@ To address the scale issue for analysis of large-scale spatial vector data, we p
 
 
 
+## Setting
 
 
-
-
-## Application Scenarios
-
-
-***Tab1. Datasets of Scenario1: Roads, POI and Farmland of Mainland China (10-million-scale)***
+***Tab1. Datasets of Demo 1: Roads, POI and Farmland of Mainland China (10-million-scale)***
 
 | Name           | Type       | Records    | Size                 |
 | -------------- | ---------- | ---------- | -------------------- |
@@ -28,7 +24,7 @@ To address the scale issue for analysis of large-scale spatial vector data, we p
 | China_POI      | Point      | 20,258,450 | 20,258,450 points    |
 | China_Farmland | Polygon    | 10,520,644 | 133,830,561 edges    |
 
-***Tab2. Datasets of Scenario 2&3:  Spain [OpenStreetMap](https://download.geofabrik.de/europe/spain-latest.osm.pbf)*** ([Classification standard](https://wiki.openstreetmap.org/wiki/Map_Features))
+***Tab2. Datasets of Demo 2&3:  Spain Datasets from [OpenStreetMap](https://download.geofabrik.de/europe/spain-latest.osm.pbf)*** ([Classification standard](https://wiki.openstreetmap.org/wiki/Map_Features))
 
 | Name                                  | Type       | Records   | Size                |
 | ------------------------------------- | ---------- | --------- | ------------------- |
@@ -70,6 +66,36 @@ To address the scale issue for analysis of large-scale spatial vector data, we p
 | CPU              | 4core*2, Intel(R) Xeon(R) CPU E5-2680 v3@2.50GHz |
 | Memory           | 32 GB                                            |
 | Operating System | Centos7                                          |
+
+
+
+##Application Scenarios
+
+### [Demo 1](http://www.higis.org.cn:8080/hibuffer10million/)(Spatial Buffer Analysis)
+
+The 10-million-scale datasets (see Tab 1) used in the demonstration are provided by map service providers. As the datasets are not open published, the raw datasets are encrypted by adding offsets. The interface of the demonstration is simple to use, choose a dataset, input the buffer radius and click the Enter button, then the result layer will be added to the map in real time. Fig 3 shows the analysis results.
+
+![fig3](./figures/fig3.JPG)
+
+###[Demo 2](http://www.higis.org.cn:8080/hibo/) (Spatial Overlay Analysis)
+
+We have designed a housing site selection scenario for VOC based overlay analysis. Suppose that a new immigrant in Spain wants to choose a place to live which meets the following conditions: 1) convenient to traffic (within 500m from Highways); 2) convenient for children education (within 200m from Education amenities); 3) convenient to the medical care (within 2000m from Healthcare amenities); 4) near to leisure places (within 1000m from Entertainment, Arts & Culture amenities or Waterways but not in Water Area); 5) quiet (at least 300m away from Railways). The conditions can be translated into the following expression. Enter the expression and click the Create-Overlay-Layer button (Fig 4), then the result layer will be added to the map in real time. Fig 5 shows the analysis results, in which the red areas are the recommended housing places for the immigrant. 
+
+
+![eq](./figures/eq.JPG)
+
+
+![fig4](./figures/fig4.JPG)
+
+*Fig 4. Input of the housing site selection in Spain*
+
+![fig5](./figures/fig5.JPG)
+
+*Fig 5. Analysis result of the housing site selection in Spain*
+
+### [Demo 3](http://www.higis.org.cn:8080/hibuffer10million/) (Spatial Join Analysis)
+
+
 
 
 
