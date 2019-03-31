@@ -3,7 +3,7 @@ To address the scale issue for analysis of large-scale spatial vector data, we p
 
 
 
-<img src="./figures/fig1.JPG" width = 30% height = 30% />
+<img src="https://github.com/MemoryMmy/VOC/blob/master/figures/fig1.JPG" width = 30% height = 30% />
 
 *Fig1. Spatial analysis via visualization-oriented computing*
 
