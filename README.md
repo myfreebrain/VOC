@@ -24,7 +24,7 @@ To address the scale issue for analysis of large-scale spatial vector data, we p
 | China_POI      | Point      | 20,258,450 | 20,258,450 points    |
 | China_Farmland | Polygon    | 10,520,644 | 133,830,561 edges    |
 
-***Tab2. Datasets of Demo 2&3:  Spain Datasets from [OpenStreetMap](https://download.geofabrik.de/europe/spain-latest.osm.pbf)*** ([Classification standard](https://wiki.openstreetmap.org/wiki/Map_Features))
+***Tab2. Datasets of Demo 2:  Spain Datasets from [OpenStreetMap](https://download.geofabrik.de/europe/spain-latest.osm.pbf)*** ([Classification standard](https://wiki.openstreetmap.org/wiki/Map_Features))
 
 | Name                                  | Type       | Records   | Size                |
 | ------------------------------------- | ---------- | --------- | ------------------- |
