@@ -77,7 +77,7 @@ The 10-million-scale datasets (see Tab 1) used in the demonstration are provided
 
 ![fig3](./figures/fig3.JPG)
 
-*Fig 3. Buffer analysis results of demo 1*
+*Fig 3. Buffer analysis results of China datasets*
 
 ### [Demo 2](http://www.higis.org.cn:8080/hibo/) (Overlay analysis for housing site selection in Spain)
 
