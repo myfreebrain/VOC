@@ -71,7 +71,7 @@ To address the scale issue for analysis of large-scale spatial vector data, we p
 
 ##Application Scenarios
 
-### [Demo 1](http://www.higis.org.cn:8080/hibuffer10million/) (buffer analysis of 10-million-scale China datasets)
+### [Demo 1](http://www.higis.org.cn:8080/hibuffer10million/) (Buffer analysis of 10-million-scale China datasets)
 
 The 10-million-scale datasets (see Tab 1) used in the demonstration are provided by map service providers. As the datasets are not open published, the raw datasets are encrypted by adding offsets. The interface of the demonstration is simple to use, choose a dataset, input the buffer radius and click the Enter button, then the result layer will be added to the map in real time. Fig 3 shows the analysis results.
 
@@ -79,7 +79,7 @@ The 10-million-scale datasets (see Tab 1) used in the demonstration are provided
 
 *Fig 3. Buffer analysis results of demo 1*
 
-###[Demo 2](http://www.higis.org.cn:8080/hibo/) (Spatial Overlay Analysis)
+###[Demo 2](http://www.higis.org.cn:8080/hibo/) (Overlay analysis for housing site selection in Spain)
 
 We have designed a housing site selection scenario for VOC based overlay analysis. Suppose that a new immigrant in Spain wants to choose a place to live which meets the following conditions: 1) convenient to traffic (within 500m from Highways); 2) convenient for children education (within 200m from Education amenities); 3) convenient to the medical care (within 2000m from Healthcare amenities); 4) near to leisure places (within 1000m from Entertainment, Arts & Culture amenities or Waterways but not in Water Area); 5) quiet (at least 300m away from Railways). The conditions can be translated into the following expression. Enter the expression and click the Create-Overlay-Layer button (Fig 4), then the result layer will be added to the map in real time. Fig 5 shows the analysis results, in which the red areas are the recommended housing places for the immigrant. 
 
