@@ -61,21 +61,23 @@ To address the scale issue for analysis of large-scale spatial vector data, we p
 
 ***Tab3.  Demo Environment***
 
-| Item             | Description                                      |
-| ---------------- | ------------------------------------------------ |
-| CPU              | 4core*2, Intel(R) Xeon(R) CPU E5-2680 v3@2.50GHz |
-| Memory           | 32 GB                                            |
-| Operating System | Centos7                                          |
+| Item             | Description                                    |
+| ---------------- | ---------------------------------------------- |
+| CPU              | 4core, Intel(R) Xeon(R) CPU E5-2680 v3@2.50GHz |
+| Memory           | 32 GB                                          |
+| Operating System | Centos7                                        |
 
 
 
 ##Application Scenarios
 
-### [Demo 1](http://www.higis.org.cn:8080/hibuffer10million/)(Spatial Buffer Analysis)
+### [Demo 1](http://www.higis.org.cn:8080/hibuffer10million/) (buffer analysis of 10-million-scale China datasets)
 
 The 10-million-scale datasets (see Tab 1) used in the demonstration are provided by map service providers. As the datasets are not open published, the raw datasets are encrypted by adding offsets. The interface of the demonstration is simple to use, choose a dataset, input the buffer radius and click the Enter button, then the result layer will be added to the map in real time. Fig 3 shows the analysis results.
 
 ![fig3](./figures/fig3.JPG)
+
+*Fig 3. Buffer analysis results of demo 1*
 
 ###[Demo 2](http://www.higis.org.cn:8080/hibo/) (Spatial Overlay Analysis)
 
@@ -92,12 +94,6 @@ We have designed a housing site selection scenario for VOC based overlay analysi
 ![fig5](./figures/fig5.JPG)
 
 *Fig 5. Analysis result of the housing site selection in Spain*
-
-### [Demo 3](http://www.higis.org.cn:8080/hibuffer10million/) (Spatial Join Analysis)
-
-
-
-
 
 ## Contact:
 
