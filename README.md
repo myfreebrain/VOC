@@ -24,7 +24,7 @@ To address the scale issue for analysis of large-scale spatial vector data, we p
 | China_POI      | Point      | 20,258,450 | 20,258,450 points    |
 | China_Farmland | Polygon    | 10,520,644 | 133,830,561 edges    |
 
-***Tab2. Datasets of Demo 2&3:  Spain Datasets from [OpenStreetMap](https://download.geofabrik.de/europe/spain-latest.osm.pbf)*** ([Classification standard](https://wiki.openstreetmap.org/wiki/Map_Features))
+***Tab2. Datasets of Demo 2:  Spain Datasets from [OpenStreetMap](https://download.geofabrik.de/europe/spain-latest.osm.pbf)*** ([Classification standard](https://wiki.openstreetmap.org/wiki/Map_Features))
 
 | Name                                  | Type       | Records   | Size                |
 | ------------------------------------- | ---------- | --------- | ------------------- |
@@ -69,7 +69,7 @@ To address the scale issue for analysis of large-scale spatial vector data, we p
 
 
 
-##Application Scenarios
+## Application Scenarios
 
 ### [Demo 1](http://www.higis.org.cn:8080/hibuffer10million/) (Buffer analysis of 10-million-scale China datasets)
 
@@ -77,9 +77,9 @@ The 10-million-scale datasets (see Tab 1) used in the demonstration are provided
 
 ![fig3](./figures/fig3.JPG)
 
-*Fig 3. Buffer analysis results of demo 1*
+*Fig 3. Buffer analysis results of China datasets*
 
-###[Demo 2](http://www.higis.org.cn:8080/hibo/) (Overlay analysis for housing site selection in Spain)
+### [Demo 2](http://www.higis.org.cn:8080/hibo/) (Overlay analysis for housing site selection in Spain)
 
 We have designed a housing site selection scenario for VOC based overlay analysis. Suppose that a new immigrant in Spain wants to choose a place to live which meets the following conditions: 1) convenient to traffic (within 500m from Highways); 2) convenient for children education (within 200m from Education amenities); 3) convenient to the medical care (within 2000m from Healthcare amenities); 4) near to leisure places (within 1000m from Entertainment, Arts & Culture amenities or Waterways but not in Water Area); 5) quiet (at least 300m away from Railways). The conditions can be translated into the following expression. Enter the expression and click the Create-Overlay-Layer button (Fig 4), then the result layer will be added to the map in real time. Fig 5 shows the analysis results, in which the red areas are the recommended housing places for the immigrant. 
 
